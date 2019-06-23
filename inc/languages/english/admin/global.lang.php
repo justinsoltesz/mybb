@@ -23,7 +23,7 @@ $l['na'] = "N/A";
 
 // Header language strings
 $l['mybb_admin_panel'] = "MyBB Control Panel";
-$l['mybb_admin_cp'] = "MyBB Admin CP";
+$l['mybb_admin_cp'] = "Admin CP";
 $l['logged_in_as'] = "Logged in as";
 $l['view_board'] = "View Forum";
 $l['logout'] = "Log Out";
@@ -122,7 +122,8 @@ $l['select_groups'] = "Select groups";
 $l['forums_colon'] = "Forums:";
 $l['groups_colon'] = "Groups:";
 $l['none'] = "None";
-$l['mybb_acp'] = "MyBB ACP";
+$l['mybb'] = "MyBB";
+$l['mybb_acp'] = "ACP";
 $l['pages'] = "Pages";
 $l['previous'] = "Previous";
 $l['page'] = "Page";

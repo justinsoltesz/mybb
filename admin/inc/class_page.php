@@ -142,7 +142,7 @@ lang.saved = \"{$lang->saved}\";
 		echo "</head>\n";
 		echo "<body>\n";
 		echo "<div id=\"container\">\n";
-		echo "	<div id=\"logo\"><h1><span class=\"invisible\">{$lang->mybb_admin_cp}</span></h1></div>\n";
+		echo "	<div id=\"logo\"><h1><span class=\"mybb\">{$lang->mybb}</span><span class=\"invisible\">{$lang->mybb_admin_cp}</span></h1></div>\n";
 		$username = htmlspecialchars_uni($mybb->user['username']);
 		echo "	<div id=\"welcome\"><span class=\"logged_in_as\">{$lang->logged_in_as} <a href=\"index.php?module=user-users&amp;action=edit&amp;uid={$mybb->user['uid']}\" class=\"username\">{$username}</a></span> | <a href=\"{$mybb->settings['bburl']}\" target=\"_blank\" class=\"forum\">{$lang->view_board}</a> | <a href=\"index.php?action=logout&amp;my_post_key={$mybb->post_code}\" class=\"logout\">{$lang->logout}</a></div>\n";
 		echo $this->_build_menu();
@@ -404,7 +404,7 @@ lang.saved = \"{$lang->saved}\";
 <div id="container"{$login_container_width}>
 	<div id="header">
 		<div id="logo">
-			<h1><a href="../" title="{$lang->return_to_forum}"><span class="invisible">{$lang->mybb_acp}</span></a></h1>
+			<h1><a href="../" title="{$lang->return_to_forum}"><span class="mybb">{$lang->mybb}</span><span class="invisible">{$lang->mybb_acp}</span></a></h1>
 
 		</div>
 	</div>
@@ -536,7 +536,7 @@ EOF;
 <div id="container">
 	<div id="header">
 		<div id="logo">
-			<h1><a href="../" title="{$lang->return_to_forum}"><span class="invisible">{$lang->mybb_acp}</span></a></h1>
+			<h1><a href="../" title="{$lang->return_to_forum}"><span class="mybb">{$lang->mybb}</span><span class="invisible">{$lang->mybb_acp}</span></a></h1>
 		</div>
 	</div>
 	<div id="content">
@@ -599,7 +599,7 @@ EOF;
 <div id="container">
 	<div id="header">
 		<div id="logo">
-			<h1><a href="../" title="{$lang->return_to_forum}"><span class="invisible">{$lang->mybb_acp}</span></a></h1>
+			<h1><a href="../" title="{$lang->return_to_forum}"><span class="mybb">{$lang->mybb}</span><span class="invisible">{$lang->mybb_acp}</span></a></h1>
 
 		</div>
 	</div>
@@ -659,7 +659,7 @@ EOF;
 <div id="container">
 	<div id="header">
 		<div id="logo">
-			<h1><a href="../" title="{$lang->return_to_forum}"><span class="invisible">{$lang->mybb_acp}</span></a></h1>
+			<h1><a href="../" title="{$lang->return_to_forum}"><span class="mybb">{$lang->mybb}</span><span class="invisible">{$lang->mybb_acp}</span></a></h1>
 
 		</div>
 	</div>
